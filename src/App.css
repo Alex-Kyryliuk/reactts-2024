@@ -1,0 +1,9 @@
+.App {
+    display: flex;
+}
+img {
+    width: 350px;
+}
+button {
+    width: 25vw;
+}

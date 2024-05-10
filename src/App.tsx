@@ -7,7 +7,7 @@ function App () {
     const [current, setCurrent] = useState<number>(0)
     const currentRef = usePrevious(current);
     const change = () => {
-        setCurrent(prevState => prevState += 100);
+        setCurrent(prevState => prevState + 100);
     }
     return (
         <div>

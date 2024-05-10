@@ -12,7 +12,7 @@ const PostsComponent:FC<IPropsType>= ({posts}) => {
     return (
         <div>
             {
-                posts.map((post) => (<PostComponent post={post}/>))
+                posts.map((post) => (<PostComponent key={post.id} post={post}/>))
             }
 
         </div>

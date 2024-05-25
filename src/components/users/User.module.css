@@ -4,6 +4,10 @@
     margin: 30px 150px;
 }
 
+.User div{
+    width: 60vw;
+}
+
 .User a{
     text-decoration: none;
 }
